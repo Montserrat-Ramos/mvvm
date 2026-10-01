@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.mvvm.presentation.character.CharacterDetailScreen
+import com.example.mvvm.presentation.detail.CharacterDetailScreen
 import com.example.mvvm.presentation.characters.CharacterListScreen
 
 @Composable

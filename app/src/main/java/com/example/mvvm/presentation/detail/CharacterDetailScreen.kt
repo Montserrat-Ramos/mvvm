@@ -1,4 +1,4 @@
-package com.example.mvvm.presentation.character
+package com.example.mvvm.presentation.detail
 
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
