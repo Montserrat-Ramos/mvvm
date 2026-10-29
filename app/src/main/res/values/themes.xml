@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Mvvm" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.Mvvm" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#06363B</item>
+        <item name="android:navigationBarColor">#06363B</item>
+        <item name="android:windowBackground">
+            @drawable/splash_window_background
+        </item>
+    </style>
+
+    <style name="Theme.Mvvm.Starting" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground">
+            #06333A
+        </item>
+
+        <item name="windowSplashScreenAnimatedIcon">
+            @drawable/splash_transparent
+        </item>
+
+        <item name="windowSplashScreenAnimationDuration">
+            0
+        </item>
+
+        <item name="postSplashScreenTheme">
+            @style/Theme.Mvvm
+        </item>
+
+    </style>
+
 </resources>
